@@ -12,3 +12,7 @@ Git Branch
         Mudando para a branch "testing"
 
     Criado também um arquivo .gitignore, que serve para listar arquivos os quais o git não precisa se preocupar na hora de um add, commit, push ou pull
+
+    Criamos um TODO.md na master e um .gitignore mais algumas alterações na aula 09 na branch testing. Feito isso temos que unificar essas duas branchs. Para isso basta voltar para a branch master e usar o comando:
+        git merge testing
+            Este comando junta as duas branchs caso não tenha nenhum conflito, ou seja mesmos arquivos modificados de formas diferentes.
