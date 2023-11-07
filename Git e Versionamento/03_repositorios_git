@@ -1,0 +1,11 @@
+Repositórios do git
+    Criar projeto virtual no Git e clonar para o computador
+        Criar um projeto dentro do Git Hub, entrar no projeto, clicar em Code e copiar o HTTPS do projeto. Depois basta digitar:
+            git clone https_copiado
+        Com isso clonaremos o projeto para nosso computador.
+        Depois do projeto clonado é criada uma pasta .git, a qual contém informações necessárias para este projeto virar um projeto de versionamento do git.
+
+    Criar um projeto local, criar versionamento e subir para o Git Hub
+        Cria um projeto normal no computador e dentro dela, no prompt, dar o comando:
+            git init
+        Versionamento e pasta git foram criadas.

@@ -1,0 +1,11 @@
+Instalando e Configurando Git
+    Download no site do Github. Podemos baixar a versão normal ou desktop.
+
+    git --version
+        Saber se instalou da maneira certa
+
+    git config --global user.name "Brener"
+        Configurar o nome do usuário
+
+    git config --global user.email brener469@gmail.com
+        Configurar o email do usuário
