@@ -1,3 +1,14 @@
 Git Branch
     Branches são ramificações que fazemos no nosso código, normalmente quando estamos trabalhando em equipe uma pessoa inicia uma branch para fazer a sua parte do trabalho
     No final as pessoas fazem um merge para juntar as modificações feitas por todos.
+
+    git branch testing
+        Criando branch chamada "testing"
+
+    git --oneline --decorate
+        Mostra os commits que foram feitos e mostra também em qual branch estamos
+
+    git checkout testing
+        Mudando para a branch "testing"
+
+    Criado também um arquivo .gitignore, que serve para listar arquivos os quais o git não precisa se preocupar na hora de um add, commit, push ou pull
