@@ -12,3 +12,4 @@ REpositórios Remotos
         Puxa tudo o que está no repositório remoto para o repositório local
 
     git fetch
+        Apenas testando git fetch
