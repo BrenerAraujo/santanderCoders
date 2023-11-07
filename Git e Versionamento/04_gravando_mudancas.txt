@@ -1,0 +1,20 @@
+Gravando mudanças no repositório
+    Os arquivos dentro do repositório pode estar em um desses estados:
+    - Untracked
+        Arquivos que não existiam neste projeto.
+
+    - Unmodified
+        Significa que este arquivo está salvo. Todas as modificações feitas anteriormente neste arquivo já foram salvas.
+
+    - Modified
+        Arquivos modificados e não salvos.
+
+    - Staged
+        Arquivos adicionados para o próximo commit
+
+
+    git status
+        Mostra o estado atual do meu repositório.
+
+    git add *
+        Adicionar minhas modificações para o próximo commit (Staged).

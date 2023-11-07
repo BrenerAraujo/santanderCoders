@@ -1,0 +1,9 @@
+Git diff e commit
+    git diff
+        Com este comando nós conseguimos ver o que foi modificado no projeto e não está no staged (antes do git add *)
+        Vermelho é o que foi apagado ou modificado
+        Verde é o que foi adicionado ou alterado
+
+    git commit -m "Adicionei 2 aulas"
+        Commita o arquivo e o deixa pronto para ser enviado ao repositório git.
+        Passamos o parâmetro -m e entre parenteses colocamos um breve comentário deste commit
