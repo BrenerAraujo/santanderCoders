@@ -1,0 +1,9 @@
+Git log e restore
+    git log
+        Comando que traz um histórico dos últimos commits que foram feitos
+
+    git restore 'nomeDoArquivo'
+        Desfaz as modificações feitas no arquivo
+
+    git restore --staged
+        Comando que desfaz um git add, os arquivos que estão no staged voltam para modified

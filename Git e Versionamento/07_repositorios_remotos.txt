@@ -1,0 +1,12 @@
+REpositórios Remotos
+    git remote
+        Comando para saber qual nosso respositório Remotos
+
+    git remote -v
+        Mostra exatamente qual o local do repositório Remotos
+
+    git push origin master
+        Manda os commits feitos para o repositório remoto
+
+    git pull
+        Puxa tudo o que está no repositório remoto para o repositório local
