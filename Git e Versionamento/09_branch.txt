@@ -1,0 +1,3 @@
+Git Branch
+    Branches são ramificações que fazemos no nosso código, normalmente quando estamos trabalhando em equipe uma pessoa inicia uma branch para fazer a sua parte do trabalho
+    No final as pessoas fazem um merge para juntar as modificações feitas por todos.
