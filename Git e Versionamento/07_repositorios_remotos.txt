@@ -10,3 +10,5 @@ REpositórios Remotos
 
     git pull
         Puxa tudo o que está no repositório remoto para o repositório local
+
+    git fetch
