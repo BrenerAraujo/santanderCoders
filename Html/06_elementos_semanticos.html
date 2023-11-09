@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Semânticos do HTML 5</title>
+</head>
+<body>
+    <!-- Header é o cabeçalho (essa tag só tem valor semântico) -->
+    <header>
+        <nav>
+            Barra de navegação
+        </nav>
+    </header>
+
+    <!-- Main é o conteúdo principal da página -->
+    <main>
+        <h1>Elementos Semânticos do HTML 5</h1>
+        Conteúdo principal
+        <!-- Section são as sessões do site. Para dividir melhor o conteúdo do site -->
+        <section id="about-me">
+            Sobre mim
+            <!-- Tag utilizada para envolver imagens -->
+            <figure>
+                <img src="04_images/logo-html.png" width="150" alt="Logo HTML">
+                <!-- Legenda de uma imagem -->
+                <figcaption>Foto HTML</figcaption>
+            </figure>
+        </section>
+
+        <!-- Nós podemos atribuir um atributo id para qualquer tag HTML
+        Essa tag serve para unificar cada tag e normalmente para adicionar estilizacação com CSS ou alguma programação com JavaScript -->
+        <section id="portfolio">
+            Portfólio
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <!-- Normalmente são blocos de código que são repetidos
+            Por exemplo, notícias de um blog. Todas têm a mesma estrutura -->
+            <article>
+                <!-- O article também pode ter cabeçalho, principal e rodapé -->
+                <header></header>
+
+                <main></main>
+
+                <footer></footer>
+            </article>
+        </section>
+    </main>
+
+    <!-- Barra lateral da página -->
+    <aside>
+        Conteúdo de barra lateral
+    </aside>
+
+    <!-- Footer é o rodapé da página -->
+    <footer>
+        Desenvolvido por Brener Araújo
+    </footer>
+</body>
+</html>

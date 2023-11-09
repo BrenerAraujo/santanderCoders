@@ -1,0 +1,78 @@
+Introdução a HTML
+    Conhecendo a estrutura de linguagem que é a base da web
+    Front-end
+        A "parte visual" da aplicação, ou seja, a parte com a qual o usuário interage.
+        Composto por basicamente 3 linguagens:
+            HTML       -> Estrutura da página
+            CSS        -> Estilização da página
+            JavaScript -> Interação do usuário com a página
+
+    - HTML significa HyperText Markup Language
+        Linguagem de marcação de hipertexto
+    - Hipertexto é um termo da semiótica (ciência que estuda comunicação) que significa que, diferentemente de um texto comum, ele pode conter referências navegáveis para outros textos.
+    - Essas referências são os que chamamos de links.
+    - Na semiótica é comum considerar praticamente a web inteira como um único hipertexto.
+    - Dizemos que isso para um pouco de contexto, mas o que nos interessa mais como programadores é o Markup.
+    Uma linguagem de marcação é uma linguagem que possuem símbolos especiais que indicam metainformações.
+    - Elas referem-se à forma, hierarquia, ordem e/ou semântica dos elementos da página.
+    - Atualmente está na versão 5 (desde 2014). Foi criado por volta de 1991.
+    - Não é uma linguagem de programação, é uma linguagem de marcação de texto.
+
+    Resumo:
+        - Marcação -> Tags
+        - Tag HTML:
+            - Delimitadas por '<' e '>'
+            - Usadas para descrever o elemento que será adicionado
+            - Exemplo de tags HTML:
+                - <button>
+                - <p>
+                - Dentre outras
+
+    Exemplo: Para pedir para o navegador exibir um elemnto botão, podemos fazer?
+        <button>Clique aqui</button>
+
+    Elemento HTML
+    - Geralmente contém três components
+        - Tag de abertura
+        - Conteúdo
+        - Tag de fechamento
+
+        <p>This is a paragraph.</p>
+        Abre a tag de parágrafo, escreve o parágrafo, fecha a tag.
+
+    Elementos HTML
+    - Possui um tipo (ex. botão, parágrafo, imagem, lista, tabela).
+    - A representação textual de um elemento em código HTML é chamado de tag.
+    - Grande parte dos elementos HTML permite que outros elementos sejam declarados em seu interior. Outros permitem apenas elementos específicos ou texto e outros ainda não permitem que nada seja colocado entre suas tags, esses têm a tag fechada nela mesmo.
+    - Elementos também podem ter informações adicionais chamadas de atributos.
+    - Atributos são pares chave-valor, separados por = e os valores devem estar envoltos em aspas.
+    - Alguns atributos podem ser usados em qualquer elemento como, por exemplo, style que nos permite usar CSS para estilizar o elemento, ou id que provê uma identificação única para o elemento.
+    - Outros são específicos de determinados elementos, por exemplo, uma imagem pode ter uma altura (height) e largura (width) e deve ter um src indicando a URL da imagem.
+    - Um campo de texto pode ter readonly, por exemplo, para marcar que o campo não pode ser alterado. Ou required que impede que ele seja enviado vazio.
+
+    Estrutura básica de um Documento HTML
+    <html>
+        <head>
+
+        </head>
+        <body>
+        
+        </body>
+    </html>
+
+    Essas são as tags obrigatórias. Dentro delas podem haver tags opcionais, como títulos, parágrafos, imagens etc ...
+
+    <html> -> Conteúdo HTML
+    <head> -> Cabeçalho do Documento
+        <title> -> Título da página HTML
+    <body> -> Corpo do documento (página)
+        <h1>    ->Cabeçalho de nível 1 (pode varias entre 1 e 6)
+        <p>     -> Parágrafo
+        <div>   -> Conteúdo genérico
+        <a>     -> Link 
+        <span>  -> Conteúdo genérico de linha
+        <table> -> Tabela
+        <ul>    -> Lista não numerada
+        <ol>    -> Lista numerada
+        <li>    -> Elemento da lista (<ul> ou <ol>)
+        <img>   -> Imagem
