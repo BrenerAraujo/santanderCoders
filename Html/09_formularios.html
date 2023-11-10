@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+
+        <!-- Temos duas opções para method, são elas:
+        - get -> Quando eu submeto um formulário todas as respostas do formulário irão ser passadas pela URL, o que não se torna eficaz quando estamos tratando de um formulário pessoal que contenha senha etc 
+        - post -> Neste caso as respostas são encapsuladas e ninguém consegue vê-las
+    
+        O action é para onde este formulário será enviado. Normalmente ele leva para uma outra página ou algum código de back-end ou javascript para ser tratado -->
+
+        <form action="" method="">
+            <div>
+                <label for="texto">Input de texto</label>
+                <input type="text" id="texto" name="texto" placeholder="Informe o seu nome...">
+                <label for="value">Outro texto</label>
+                <input type="text" id="value" name="nome" value="Informe o seu nome...">
+            </div>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+
+            <div>
+                <label for="numero">Número:</label>
+                <input type="number" id="numero" name="numero">
+            </div>
+
+            <div>
+                <label for="arquivo">Arquivo:</label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+
+            <div>
+                <label for="url">URL:</label>
+                <input type="url" id="url" name="url">
+            </div>
+
+            <div>
+                <label for="color">Cor:</label>
+                <input type="color" id="color" name="color">
+            </div>
+
+            <div>
+                <label for="range">Range:</label>
+                <input type="range" id="range" name="range" value="100" max="200" min="100">
+            </div>
+
+            <div>
+                <label for="checkbox">Checkbox:</label>
+                <input type="checkbox" id="checkbox" name="checkbox" checked>
+            </div>
+
+            <div>
+                <label for="radio">Radio:</label>
+                <input type="radio" id="radio" name="radio">
+            </div>
+
+            <div>
+                <label for="reset">Reset:</label>
+                <input type="reset" id="reset" name="reset" value="Limpar">
+            </div>
+
+            <div>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma das opções</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferência</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="submit" id="submit" name="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
