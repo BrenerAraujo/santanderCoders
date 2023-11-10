@@ -1,0 +1,17 @@
+Introdução ao CSS
+
+- O HTML surgiu sem uma maneira de estilização. Com o tempo foram criadas várias tags para suprir essa necessidade, porém chegou o momento que isso não estava mais sendo eficaz. Surgiu a necessidade de uma ferramenta para estilizar o HTML. Daí que surgiu o CSS e por conta dele algumas tags do HTML foram extintas.
+
+- O CSS não existe por si só. Ele precisa de uma página HTML para existir.
+
+- Temos 3 formas de utilizar o CSS, são elas: 
+    - Em cada tag HTML utilizar o atributo style (tag style)
+    - Acrescentar na tag head uma tag style e adicionar aqui as estilizações do conteúdo da minha página (CSS inline)
+    - Criar um arquivo CSS para guardar as estilizações da minha página. Neste caso devemos linkar a página HTML com o arquivo CSS (arquivo externo)
+
+- O CSS pode ser interpretado diferentemente em diferentes navegadores. Temos que tomar cuidado para não criar coisas que não serão bem interpretadas pelos principais navegadores.
+
+- Possíveis seletores para o CSS
+    - tag
+    - class
+    - id
