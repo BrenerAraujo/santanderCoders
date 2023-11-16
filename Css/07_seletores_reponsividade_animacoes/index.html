@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Seletores, Responsividade e Animações</title>
+</head>
+<body>
+    <main>
+        <div class="bg"></div>
+        <h1>Seletores, Responsividade e Animações</h1>
+
+        <div class="spinner-container">
+            <svg xmlns="http://www.w3.org/2000/svg" class="fa-spinner" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z"/></svg>
+        </div>
+
+        <button data-button="products">Conheça nossos produtos</button>
+        <h2>Tabela</h2>
+
+        <table id="companies-table" class="company-tb">
+            <tr>
+                <th>Empresa</th>
+                <th>Contato</th>
+                <th>País</th>
+            </tr>
+            <tr data-company="GCO">
+                <td>Global CO</td>
+                <td>Julia Lagos</td>
+                <td>Chile</td>
+            </tr>
+            <tr data-company="CCL">
+                <td>Centro Comercial Laguna</td>
+                <td>Jennifer Rios</td>
+                <td>Brasil</td>
+            </tr>
+            <tr data-company="CEC">
+                <td>CE & C</td>
+                <td>Roberto Carlos</td>
+                <td>Brasil</td>
+            </tr>
+            <tr data-company="TT">
+                <td>Top Tech</td>
+                <td>João Cardoso</td>
+                <td>Portugal</td>
+            </tr>
+        </table>
+
+        <button id="team">Conheça nosso time</button>
+    </main>
+</body>
+</html>

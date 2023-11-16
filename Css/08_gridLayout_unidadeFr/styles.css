@@ -1,0 +1,60 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+.boxes { 
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 1.5rem;
+    background-color: blue;
+    color: #fff;
+    font-size: 4rem;
+    border: 10px solid red;
+    display: inline-block;
+    border-radius: .4rem;
+    
+    flex: 1;
+
+    display: flex;
+    gap: 0 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.boxes {
+    height: calc(100vh);
+    position: relative;
+
+    display: grid;
+    justify-content: flex-start;
+    /* row-gap: 1rem;
+    column-gap: 5rem; */
+    gap: 1rem 5rem;
+
+    /* grid-template-columns: 3fr 1fr 1fr 1fr; */
+    grid-template-columns: 3fr repeat(3, 1fr);
+    /* grid-template-rows: 1fr; */
+}
+
+.box p, button {
+    font-size: 4rem;
+}
+
+.box {
+    width: 100%;
+}
