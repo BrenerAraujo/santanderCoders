@@ -1,0 +1,11 @@
+Introção ao JavaScript
+
+- De acordo com com o stackoverflow o JavaScript é a tecnologia mais utilizada
+- JavaScript foi criado inicialmente para rodar apenas no navegador, porém hoje em dia nós conseguimos rodar JavaScript também no servidor
+
+
+- Instalei o nvm para atualizar o node
+    - No terminal use:
+        - nvm instal xx.xx.xx -> para instalar uma nova versão
+        - nvm use xx.xx.xx -> para usar esta versão
+        - nvm list -> para listar as versões instaladas
